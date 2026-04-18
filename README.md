@@ -52,7 +52,7 @@ Scanned documents come out noisy. Blurry text, crumpled paper, stains, faded ink
                │ POST /ocr                        │ POST /compress
                ▼                                  ▼
 ┌──────────────────────────┐      ┌───────────────────────────────────┐
-│  STAGE 1 — OCR  :8001    │      │  STAGE 2 — HUFFMAN  :8002         │
+│  STAGE 1 — OCR           │      │  STAGE 2 — HUFFMAN                |
 │                          │      │                                   │
 │  1. Classical filter     │      │  FGK Adaptive Huffman             │
 │     (per noise profile)  │      │  — built from scratch             │
