@@ -8,9 +8,9 @@ This project is a two-stage neural pipeline that takes a blurry, distorted scann
 
 ---
 
-## 🎬 Demo
+## 🎬 Presentation
 
-> **[https://www.youtube.com/watch?v=3fcLQcOCGw4](#)**  
+[▶ Watch the demo](https://www.youtube.com/watch?v=3fcLQcOCGw4)
 
 ---
 
@@ -52,7 +52,7 @@ Scanned documents come out noisy. Blurry text, crumpled paper, stains, faded ink
                │ POST /ocr                        │ POST /compress
                ▼                                  ▼
 ┌──────────────────────────┐      ┌───────────────────────────────────┐
-│  STAGE 1 — OCR           │      │  STAGE 2 — HUFFMAN                |
+│  STAGE 1 — OCR  :8001    │      │  STAGE 2 — HUFFMAN  :8002         │
 │                          │      │                                   │
 │  1. Classical filter     │      │  FGK Adaptive Huffman             │
 │     (per noise profile)  │      │  — built from scratch             │
