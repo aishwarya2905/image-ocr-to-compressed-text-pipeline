@@ -10,9 +10,7 @@ This project is a two-stage neural pipeline that takes a blurry, distorted scann
 
 ## 🎬 Demo
 
-> **[Watch the full pipeline demo →](#)**  
-
->  **[Live UI Screenshot](#)** 
+> **[https://www.youtube.com/watch?v=3fcLQcOCGw4](#)**  
 
 ---
 
@@ -119,7 +117,7 @@ Implemented entirely from scratch — no compression libraries used:
 | CRNN OCR | Character accuracy | 90 % |
 | Huffman | Lossless recovery | 100% |
 | Pipeline | End-to-end latency | 0-20 ms |
-<img width="835" height="783" alt="image" src="https://github.com/user-attachments/assets/6c4452f5-4dee-4f12-94bf-60a83c5e9e43" />
+<img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/6c4452f5-4dee-4f12-94bf-60a83c5e9e43" />
 
 ---
 
